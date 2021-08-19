@@ -18,9 +18,9 @@ DESCRIBE peliculas;
  INSERT INTO peliculas (codigo,duracion)
   VALUES(5,90);
  INSERT INTO peliculas (titulo,actor)
-  ('Harry Potter y la piedra filosofal','Daniel R.');
+  VALUES('Harry Potter y la piedra filosofal','Daniel R.');
  INSERT INTO peliculas (titulo,actor,duracion)
-  ('Harry Potter y la piedra filosofal','Daniel R.',120);
+  VALUES('Harry Potter y la piedra filosofal','Daniel R.',120);
 
 -- 4- Seleccione todos los datos de las películas para ver cómo guardó MySQL los valores no 
 -- ingresados. En el primer registro ingresado, en el campo "codigo" ingresará "1", el primer valor 
