@@ -11,23 +11,23 @@ CREATE TABLE peliculas (
 
 -- 3. Ingrese los siguientes registros:
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Mision imposible','Tom Cruise',120);
+  VALUES ('Mision imposible','Tom Cruise',120);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Harry Potter y la piedra filosofal','Daniel R.',180);
+  VALUES ('Harry Potter y la piedra filosofal','Daniel R.',180);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Harry Potter y la camara secreta','Daniel R.',190);
+  VALUES ('Harry Potter y la camara secreta','Daniel R.',190);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Mision imposible 2','Tom Cruise',120);
+  VALUES ('Mision imposible 2','Tom Cruise',120);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Mujer bonita','Richard Gere',120);
+  VALUES ('Mujer bonita','Richard Gere',120);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Tootsie','D. Hoffman',90);
+  VALUES ('Tootsie','D. Hoffman',90);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Un oso rojo',null,100);
+  VALUES ('Un oso rojo',null,100);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Elsa y Fred','China Zorrilla',110);
+  VALUES ('Elsa y Fred','China Zorrilla',110);
  INSERT INTO peliculas (titulo,actor,duracion)
-  values('Mrs. Johns','Richard Gere',180);
+  VALUES ('Mrs. Johns','Richard Gere',180);
 
 -- 4. Muestre el valor de duración más grande:
 SELECT MAX(duracion) AS duracion_maxima FROM peliculas;
