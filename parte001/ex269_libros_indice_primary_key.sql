@@ -1,11 +1,11 @@
 DROP TABLE IF EXISTS libros;
 
-create table libros(
-  codigo int unsigned auto_increment,
-  titulo varchar(40) not null,
-  autor varchar(30),
-  editorial varchar(15),
-  primary key(codigo)
+CREATE TABLE libros(
+  codigo INT UNSIGNED AUTO_INCREMENT,
+  titulo VARCHAR(40) NOT NULL,
+  autor VARCHAR(30),
+  editorial VARCHAR(15),
+  PRIMARY KEY(codigo)
  );
 
-show index from libros;
+SHOW INDEX FROM libros;
