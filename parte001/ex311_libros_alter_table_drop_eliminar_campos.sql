@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS libros;
+ESCDROP TABLE IF EXISTS libros;
 
 CREATE TABLE libros(
   codigo INT UNSIGNED AUTO_INCREMENT,
@@ -11,17 +11,16 @@ CREATE TABLE libros(
   PRIMARY KEY(codigo)
  );
 
-alter table libros
-  drop edicion;
+ALTER TABLE libros
+  DROP edicion;
 
-describe libros;
+DESCRIBE libros;
 
-alter table libros
-  drop edicion;
+ALTER TABLE libros
+  DROP edicion;
 
-alter table libros
-  drop editorial, drop cantidad;
+ALTER TABLE libros
+  DROP editorial, DROP cantidad;
 
-alter table libros
-  drop codigo;
-
+ALTER TABLE libros
+  DROP codigo;
